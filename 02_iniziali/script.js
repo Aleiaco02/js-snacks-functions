@@ -8,9 +8,6 @@ function firtsWord(nome) {
   return names.map(nome => nome[0]);
 }
 
-// Esempio di utilizzo
-
-
 
 // Invoca la funzione qui e stampa il risultato in console
 const iniziali = firtsWord(names);
