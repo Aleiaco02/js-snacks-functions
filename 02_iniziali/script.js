@@ -4,10 +4,18 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+function firtsWord(nome) {
+  return names.map(nome => nome[0]);
+}
+
+// Esempio di utilizzo
+
 
 
 // Invoca la funzione qui e stampa il risultato in console
+const iniziali = firtsWord(names);
+console.log(names);
 
-
+console.log(iniziali);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
